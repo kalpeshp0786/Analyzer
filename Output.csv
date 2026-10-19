@@ -1,0 +1,134 @@
+Welcome to the NumPy Analyzer!
+========================================
+
+Main Menu
+1. Create a Numpy Array
+2. Perform Mathematical Operations
+3. Combine or Split Arrays
+4. Search, Sort, or Filter Arrays
+5. Compute Aggregates and Statistics
+6. Exit
+Enter your choice: 1
+
+Array Types
+1. 1D Array
+2. 2D Array
+3. 3D Array
+Select array type: 2
+Enter number of rows: 2
+Enter number of columns: 3
+Enter 6 elements separated by spaces: 10 20 30 40 50 60
+
+Created Array:
+[[10 20 30]
+ [40 50 60]]
+
+1. Indexing
+2. Slicing
+3. Go Back
+Select operation: 2
+Enter row range (start:end): 0:2
+Enter column range (start:end): 1:3
+[[20 30]
+ [50 60]]
+
+1. Indexing
+2. Slicing
+3. Go Back
+Select operation: 3
+
+Main Menu
+1. Create a Numpy Array
+2. Perform Mathematical Operations
+3. Combine or Split Arrays
+4. Search, Sort, or Filter Arrays
+5. Compute Aggregates and Statistics
+6. Exit
+Enter your choice: 2
+
+Mathematical Operations
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Dot Product / Matrix Multiplication
+Select operation: 1
+Enter 6 elements separated by spaces: 5 5 5 5 5 5
+
+Original Array:
+ [[10 20 30]
+ [40 50 60]]
+Second Array:
+ [[5 5 5]
+ [5 5 5]]
+Addition Result:
+ [[15 25 35]
+ [45 55 65]]
+
+Main Menu
+1. Create a Numpy Array
+2. Perform Mathematical Operations
+3. Combine or Split Arrays
+4. Search, Sort, or Filter Arrays
+5. Compute Aggregates and Statistics
+6. Exit
+Enter your choice: 3
+
+1. Combine Arrays
+2. Split Array
+Select operation: 1
+Enter 6 elements separated by spaces: 1 2 3 4 5 6
+Original Array:
+ [[10 20 30]
+ [40 50 60]]
+Second Array:
+ [[1 2 3]
+ [4 5 6]]
+Combined Array (Vertical Stack):
+ [[10 20 30]
+ [40 50 60]
+ [ 1  2  3]
+ [ 4  5  6]]
+
+Main Menu
+1. Create a Numpy Array
+2. Perform Mathematical Operations
+3. Combine or Split Arrays
+4. Search, Sort, or Filter Arrays
+5. Compute Aggregates and Statistics
+6. Exit
+Enter your choice: 4
+
+1. Search a Value
+2. Sort the Array
+3. Filter Values
+Select operation: 2
+Original Array:
+ [[10 20 30]
+ [40 50 60]]
+Sorted Array:
+ [[10 20 30]
+ [40 50 60]]
+Sorting is applied along the last axis.
+
+Main Menu
+1. Create a Numpy Array
+2. Perform Mathematical Operations
+3. Combine or Split Arrays
+4. Search, Sort, or Filter Arrays
+5. Compute Aggregates and Statistics
+6. Exit
+Enter your choice: 7
+Invalid choice. Select between 1 and 6.
+
+Main Menu
+1. Create a Numpy Array
+2. Perform Mathematical Operations
+3. Combine or Split Arrays
+4. Search, Sort, or Filter Arrays
+5. Compute Aggregates and Statistics
+6. Exit
+Enter your choice: 6
+
+Thank you for using the NumPy Analyzer!
+Goodbye!
